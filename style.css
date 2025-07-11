@@ -93,7 +93,7 @@ nav a.active {
     color: #ffd54f;
     letter-spacing: 1.1px;
     margin-bottom: 1rem;
-    animation: fadeInUp 1.2s ease forwards;
+    animation: fadeInUp 2.0s ease forwards;
 }
 
 .hero p:nth-of-type(2) {
@@ -226,7 +226,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    transition: transform 0.2s ease, background-color 0.3s ease;
+    transition: transform 0.2s ease, background-color 0.2s ease;
     color: #ffd54f;
     backdrop-filter: blur(8px);
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -440,7 +440,7 @@ footer {
     }
 
     #cert {
-        font-size: 28px;
+        font-size: 30px;
     }
 
     .certifications {
@@ -697,5 +697,4 @@ footer {
     .contact-list li {
         font-size: 1.15rem;
     }
-
-    .contact-list li .icon
+}
